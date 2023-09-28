@@ -2,6 +2,12 @@ const degisim = [
   {
     letter: "a",
     changeWith: 4,
+
+  },
+  {
+    letter: "e",
+    changeWith: 3,
+
   },
   {
     letter: "b",
@@ -10,14 +16,15 @@ const degisim = [
   {
     letter: "e",
     changeWith: "è",
+
   },
   {
     letter: "ı",
-    changeWith: 3,
+    changeWith: 1,
   },
   {
     letter: "i",
-    changeWith: 4,
+    changeWith: 1,
   },
   {
     letter: "l",
@@ -25,11 +32,11 @@ const degisim = [
   },
   {
     letter: "o",
-    changeWith: 5,
+    changeWith: 0,
   },
   {
     letter: "ö",
-    changeWith: 6,
+    changeWith: 0,
   },
   {
     letter: "ş",
@@ -37,11 +44,11 @@ const degisim = [
   },
   {
     letter: "u",
-    changeWith: 7,
+    changeWith: "U",
   },
   {
     letter: "ü",
-    changeWith: 8,
+    changeWith: "U",
   },
 ];
 module.exports = { degisim };
