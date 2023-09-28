@@ -1,6 +1,7 @@
 const { degisim } = require("./degisim.js");
 
-let yazi = "merhaba benim adım Hamza";
+let yazi =
+  "Denemek isteyenlere dosya paylaşılır ";
 let yaziArr = [...yazi];
 for (let i = 0; i < yaziArr.length; i++) {
   for (let j = 0; j < degisim.length; j++) {

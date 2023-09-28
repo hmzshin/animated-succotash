@@ -1,11 +1,15 @@
 const degisim = [
   {
     letter: "a",
-    changeWith: 1,
+    changeWith: 4,
+  },
+  {
+    letter: "b",
+    changeWith: "ß",
   },
   {
     letter: "e",
-    changeWith: 2,
+    changeWith: "è",
   },
   {
     letter: "ı",
@@ -16,12 +20,20 @@ const degisim = [
     changeWith: 4,
   },
   {
+    letter: "l",
+    changeWith: "L",
+  },
+  {
     letter: "o",
     changeWith: 5,
   },
   {
     letter: "ö",
     changeWith: 6,
+  },
+  {
+    letter: "ş",
+    changeWith: "$",
   },
   {
     letter: "u",
