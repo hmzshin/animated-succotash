@@ -1,7 +1,7 @@
 const { degisim } = require("./degisim.js");
 
 let yazi =
-  "Denemek isteyenlere dosya paylaşılır ";
+  "mesela bütün sesli harfler mi değişicek yoksa bazılarımı ";
 let yaziArr = [...yazi];
 for (let i = 0; i < yaziArr.length; i++) {
   for (let j = 0; j < degisim.length; j++) {
